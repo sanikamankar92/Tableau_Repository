@@ -1,0 +1,389 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20262.26.0819.2015                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='d9e15b90fae138d4c816002197ea0d9021b9535b3372d78f3fb19f6d46fa7183' _.fcp.WorkbookFingerprinting.true...creator-author-id='d9e15b90fae138d4c816002197ea0d9021b9535b3372d78f3fb19f6d46fa7183' _.fcp.WorkbookFingerprinting.true...creator-license-type='free' _.fcp.WorkbookFingerprinting.true...creator-machine-id='4ab71466920664a973c7cfe4ca4540b973317e51bffdf7cab183d4e0e07761b4' _.fcp.WorkbookFingerprinting.true...license-type='free' _.fcp.WorkbookFingerprinting.true...machine-id='4ab71466920664a973c7cfe4ca4540b973317e51bffdf7cab183d4e0e07761b4' original-version='18.1' source-build='2026.2.2 (20262.26.0819.2015)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='airbnb.xlsx - AirBnB_NYC' inline='true' name='federated.105ycxq11scmi819h2lv41aiy2af' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='airbnb.xlsx - AirBnB_NYC' name='textscan.0tkdl9r0vlo7e61c12kne0a1hgns'>
+            <connection class='textscan' directory='C:/Users/SANIKA/Downloads' filename='airbnb.xlsx - AirBnB_NYC.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0tkdl9r0vlo7e61c12kne0a1hgns' name='airbnb.xlsx - AirBnB_NYC.csv' table='[airbnb.xlsx - AirBnB_NYC#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='integer' name='Host Id' ordinal='0' />
+            <column datatype='date' name='Host Since' ordinal='1' />
+            <column datatype='string' name='Name' ordinal='2' />
+            <column datatype='string' name='Neighbourhood ' ordinal='3' />
+            <column datatype='string' name='Property Type' ordinal='4' />
+            <column datatype='integer' name='Review Scores Rating (bin)' ordinal='5' />
+            <column datatype='string' name='Room Type' ordinal='6' />
+            <column datatype='integer' name='Zipcode' ordinal='7' />
+            <column datatype='integer' name='Beds' ordinal='8' />
+            <column datatype='integer' name='Number of Records' ordinal='9' />
+            <column datatype='integer' name='Number Of Reviews' ordinal='10' />
+            <column datatype='integer' name='Price' ordinal='11' />
+            <column datatype='integer' name='Review Scores Rating' ordinal='12' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[airbnb.xlsx - AirBnB_NYC.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Host Id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Host Id]</local-name>
+            <parent-name>[airbnb.xlsx - AirBnB_NYC.csv]</parent-name>
+            <remote-alias>Host Id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[airbnb.xlsx - AirBnB_NYC.csv_60AB71732BFF4CA49C77D8FA394B1B51]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Host Since</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Host Since]</local-name>
+            <parent-name>[airbnb.xlsx - AirBnB_NYC.csv]</parent-name>
+            <remote-alias>Host Since</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[airbnb.xlsx - AirBnB_NYC.csv_60AB71732BFF4CA49C77D8FA394B1B51]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[airbnb.xlsx - AirBnB_NYC.csv]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[airbnb.xlsx - AirBnB_NYC.csv_60AB71732BFF4CA49C77D8FA394B1B51]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Neighbourhood </remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Neighbourhood ]</local-name>
+            <parent-name>[airbnb.xlsx - AirBnB_NYC.csv]</parent-name>
+            <remote-alias>Neighbourhood </remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[airbnb.xlsx - AirBnB_NYC.csv_60AB71732BFF4CA49C77D8FA394B1B51]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Property Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Property Type]</local-name>
+            <parent-name>[airbnb.xlsx - AirBnB_NYC.csv]</parent-name>
+            <remote-alias>Property Type</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[airbnb.xlsx - AirBnB_NYC.csv_60AB71732BFF4CA49C77D8FA394B1B51]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Review Scores Rating (bin)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Review Scores Rating (bin)]</local-name>
+            <parent-name>[airbnb.xlsx - AirBnB_NYC.csv]</parent-name>
+            <remote-alias>Review Scores Rating (bin)</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[airbnb.xlsx - AirBnB_NYC.csv_60AB71732BFF4CA49C77D8FA394B1B51]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Room Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Room Type]</local-name>
+            <parent-name>[airbnb.xlsx - AirBnB_NYC.csv]</parent-name>
+            <remote-alias>Room Type</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[airbnb.xlsx - AirBnB_NYC.csv_60AB71732BFF4CA49C77D8FA394B1B51]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Zipcode</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Zipcode]</local-name>
+            <parent-name>[airbnb.xlsx - AirBnB_NYC.csv]</parent-name>
+            <remote-alias>Zipcode</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[airbnb.xlsx - AirBnB_NYC.csv_60AB71732BFF4CA49C77D8FA394B1B51]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Beds</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Beds]</local-name>
+            <parent-name>[airbnb.xlsx - AirBnB_NYC.csv]</parent-name>
+            <remote-alias>Beds</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[airbnb.xlsx - AirBnB_NYC.csv_60AB71732BFF4CA49C77D8FA394B1B51]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of Records</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of Records]</local-name>
+            <parent-name>[airbnb.xlsx - AirBnB_NYC.csv]</parent-name>
+            <remote-alias>Number of Records</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[airbnb.xlsx - AirBnB_NYC.csv_60AB71732BFF4CA49C77D8FA394B1B51]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number Of Reviews</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number Of Reviews]</local-name>
+            <parent-name>[airbnb.xlsx - AirBnB_NYC.csv]</parent-name>
+            <remote-alias>Number Of Reviews</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[airbnb.xlsx - AirBnB_NYC.csv_60AB71732BFF4CA49C77D8FA394B1B51]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Price</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Price]</local-name>
+            <parent-name>[airbnb.xlsx - AirBnB_NYC.csv]</parent-name>
+            <remote-alias>Price</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[airbnb.xlsx - AirBnB_NYC.csv_60AB71732BFF4CA49C77D8FA394B1B51]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Review Scores Rating</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Review Scores Rating]</local-name>
+            <parent-name>[airbnb.xlsx - AirBnB_NYC.csv]</parent-name>
+            <remote-alias>Review Scores Rating</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[airbnb.xlsx - AirBnB_NYC.csv_60AB71732BFF4CA49C77D8FA394B1B51]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Host_Since' datatype='date' name='[Calculation_0366185574592512]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='IFNULL([Host Since],DATE(&quot;01-01-2010&quot;))' />
+      </column>
+      <column caption='Property_Type' datatype='string' name='[Calculation_0366185578815489]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IFNULL([Property Type],&quot;Apartment&quot;)' />
+      </column>
+      <column caption='Updated_neibourhood' datatype='string' name='[Calculation_0366185588813826]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IFNULL([Neighbourhood ],&quot;Unknown&quot;)' />
+      </column>
+      <column caption='Review Score Rating(bin)' datatype='integer' name='[Calculation_0366185589055491]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='IFNULL(([Review Scores Rating (bin)]),94)' />
+      </column>
+      <column caption='Review_Score_Rating_new' datatype='integer' name='[Calculation_0366185589428228]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IFNULL([Review Scores Rating],94)' />
+      </column>
+      <column caption='median_rsr' datatype='real' name='[Calculation_0366185590943749]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='MEDIAN([Review Scores Rating])' />
+      </column>
+      <column caption='median_rsr_bin' datatype='real' name='[Calculation_0366185592397830]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='MEDIAN([Calculation_0366185589055491])' />
+      </column>
+      <column datatype='integer' name='[Host Id]' role='dimension' type='ordinal' />
+      <column datatype='date' hidden='true' name='[Host Since]' role='dimension' type='ordinal' />
+      <column caption='Neighbourhood' datatype='string' hidden='true' name='[Neighbourhood ]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Property Type]' role='dimension' type='nominal' />
+      <column datatype='integer' hidden='true' name='[Review Scores Rating (bin)]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Review Scores Rating]' role='measure' type='quantitative' />
+      <column aggregation='Sum' datatype='integer' default-format='*00000' name='[Zipcode]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <column caption='airbnb.xlsx - AirBnB_NYC.csv' datatype='table' name='[__tableau_internal_object_id__].[airbnb.xlsx - AirBnB_NYC.csv_60AB71732BFF4CA49C77D8FA394B1B51]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='airbnb.xlsx - AirBnB_NYC.csv' id='airbnb.xlsx - AirBnB_NYC.csv_60AB71732BFF4CA49C77D8FA394B1B51'>
+            <properties context=''>
+              <relation connection='textscan.0tkdl9r0vlo7e61c12kne0a1hgns' name='airbnb.xlsx - AirBnB_NYC.csv' table='[airbnb.xlsx - AirBnB_NYC#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='integer' name='Host Id' ordinal='0' />
+                  <column datatype='date' name='Host Since' ordinal='1' />
+                  <column datatype='string' name='Name' ordinal='2' />
+                  <column datatype='string' name='Neighbourhood ' ordinal='3' />
+                  <column datatype='string' name='Property Type' ordinal='4' />
+                  <column datatype='integer' name='Review Scores Rating (bin)' ordinal='5' />
+                  <column datatype='string' name='Room Type' ordinal='6' />
+                  <column datatype='integer' name='Zipcode' ordinal='7' />
+                  <column datatype='integer' name='Beds' ordinal='8' />
+                  <column datatype='integer' name='Number of Records' ordinal='9' />
+                  <column datatype='integer' name='Number Of Reviews' ordinal='10' />
+                  <column datatype='integer' name='Price' ordinal='11' />
+                  <column datatype='integer' name='Review Scores Rating' ordinal='12' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='airbnb.xlsx - AirBnB_NYC' name='federated.105ycxq11scmi819h2lv41aiy2af' />
+          </datasources>
+          <datasource-dependencies datasource='federated.105ycxq11scmi819h2lv41aiy2af'>
+            <column caption='Review Score Rating(bin)' datatype='integer' name='[Calculation_0366185589055491]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='IFNULL(([Review Scores Rating (bin)]),94)' />
+            </column>
+            <column caption='median_rsr_bin' datatype='real' name='[Calculation_0366185592397830]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='MEDIAN([Calculation_0366185589055491])' />
+            </column>
+            <column datatype='integer' hidden='true' name='[Review Scores Rating (bin)]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_0366185592397830]' derivation='User' name='[usr:Calculation_0366185592397830:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.105ycxq11scmi819h2lv41aiy2af].[usr:Calculation_0366185592397830:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{0A4AB629-99C8-4DE0-B2BB-4C81835F6586}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.105ycxq11scmi819h2lv41aiy2af].[:Measure Names]</field>
+            <field>[federated.105ycxq11scmi819h2lv41aiy2af].[yr:Calculation_0366185574592512:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C278C283-730D-490A-A7F8-79E3E71E146C}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='25' name='Sheet 1' width='64'>
+      iVBORw0KGgoAAAANSUhEUgAAAEAAAAAZCAYAAACB6CjhAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAC/ElEQVRYhe2YQUsqbRiGrzO4EDQnQgKlNhFtWhlCFEb7xkWbdKFCm1pIiwj6J22iaCEE
+      EtKmnS2NFkESSYgZFSgYJKIjYk0671kcPmHoO2YcdA4cb5jF3HPNM89788y8MD+EEIJ/WJLZ
+      DZitYQBmN2C2hgGY3YDZGgZgdgNmaxiA2Q2YrWEAZjdgtoYBDOIhj4+PRKNRlpaWUBSFWCyG
+      pmm/5c/OzkilUl/WzWQyRCIRFhYWiEQiZDKZ7zOizyoUCmJjY0NcX1+LdrstVFUVu7u7Yn9/
+      X7Tb7U/809OT2NraEufn513r5nI5EQwGRTqdFkIIkU6nRTAYFLlc7ltM3yfg9PSUlZUV5ubm
+      kCSJkZERtre3ubq6olgsGlhN0zg6OmJtbe3LuolEgkAggMfjAcDj8RAIBEgkEt9i+h5ArVZj
+      amrK4LndblwuFw8PDwY/mUxit9vx+Xxda9brdcrlMl6v1+B7vV7K5TL1er0nBgYQgKZpvLy8
+      fPInJycNARSLRZLJJOFwGEnq3laz2UTXdWRZNviyLKPrOs1msycGBhCA3+/n8PCQbDYLgK7r
+      3N/fc3t722FarRaxWAy/34/b7e6prtVqxWKxGDyLxYLVav0WY7zaB83Pz3NyctI5lySJmZkZ
+      3G4309PTVCoVotEoY2NjvL29cXFxAUCpVOLm5obNzU0cDsenRVSrVWq1GjabrePXajWq1Wpn
+      0b0wfQ/g//T6+srz8zPhcJjR0VH29vbQdd3ApFIplpeXsdvtn+53OBzIskw+nzdMTD6fR5bl
+      TmC9MH1/BT4+Pgx7vqZpHB8f4/V6mZiYQJIknE4n4+PjhkOWZZxOJ5Ik0Wq1uLy8pFQqAb8m
+      QFEU4vE4qqoCoKoq8XgcRVGwWCw9MTCACSgUCuzs7HQWmc1mWVxcZH19/cuP3X96f3/n4OCA
+      UCiEy+UCwOfzkc/nCYVCzM7Ocnd3x+rqqmEH6YX5IUT/f4vruk6lUkHXdWw2m+Gd/FM1Gg0a
+      jUbXut2YgQTwN+sndmU3eTrViOAAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
